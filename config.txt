@@ -121,7 +121,7 @@ iono_skip_est = 1
 #####################################
 # correlation threshold for snaphu.csh (0~1)
 # set it to be 0 to skip unwrapping.
-threshold_snaphu = 0.05
+threshold_snaphu = 0.1
 
 # interpolate masked or low coherence pixels with their nearest neighbors, 1 means interpolate, 
 # others or blank means using original phase, see snaphu.csh and snaphu_interp.csh for details
